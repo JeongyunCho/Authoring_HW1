@@ -45,6 +45,9 @@ objectIndex.images.forEach(function(element, index){
         element.addEventListener('click', changeElements, false);
       });
       //initialize the app
+      //document.querySelector('#spring').click();
+
+      //changeElements.call(document.querySelector('#spring'));
       theSubhead.firstChild.nodeValue = dynamicContent['spring'].headline;
       theSeasonText.firstChild.nodeValue = dynamicContent['spring'].text;
       theHeader.classList.add('spring');
